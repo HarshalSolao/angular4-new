@@ -8,8 +8,16 @@
   <h5>{{todayDate}}</h5>
   <!-- Here new component is added into Parent component HTML page -->
   <h4><app-new-cmp></app-new-cmp></h4>
+ 
 </div>
 <h2 style="text-align:center">Here are some practice code: </h2>
+<h3 style="text-align: center;color: crimson">Below data is coming from New Http Service Component</h3>
+<div style="align-self: center; ;text-align:left;color: rgb(32, 18, 228);width: 415px; ">
+    
+  <app-new-cmp-http></app-new-cmp-http>
+</div>
+
+
 <!-- This is Routing tag for component load -->
 <div style="text-align:center">
 <h3><a routerLink = 'new-cmp-route'>Routing Component Load</a></h3>
@@ -17,4 +25,14 @@
 </div>
 
 
+<!-- This is Form template example -->
+<div style="text-align:center">
+  <h4 style="color: darkgoldenrod">This is form template example</h4>
+  <app-new-cmp-form></app-new-cmp-form>
+</div>
 
+<!-- This is Form Model example -->
+<div style="text-align:center">
+  <h4 style="color: rgb(119, 9, 91)">This is Form Model example</h4>
+  <app-new-cmp-form-model></app-new-cmp-form-model>
+</div>
